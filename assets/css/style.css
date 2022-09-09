@@ -1,0 +1,151 @@
+/* Universal settings */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sets background color of webpage */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Changes anchor tag styles (color and removeal of underline)*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Sets font-size for paragraph elements */
+p {
+    font-size: 16px;
+}
+
+/* Sets padding, font and color for the logo */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Sets Navbar h1 style (inline-block and font size) */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Changes color of "seo" in company logo*/
+.seo {
+    color: #d9dcd6;
+}
+
+/* Sets styling for Navbar */
+.navbar {
+    list-style-type: none;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Styling for Navbar buttons */
+.navbar-button{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Styling for the big background image of website */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sets display options for smaller divs in this div*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Setting the size and color of the div and styling of text*/
+.content-div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets font-size and margin-bottom for h2s in this div */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sets height for images in this div */
+.content img {
+    max-height: 200px;
+}
+
+/* Left aligning image in contents */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Right aligning image in contents */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Sets display options for smaller divs in this div*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Setting margin of div and styling of text of benefits */
+.benefits-div {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Sets margin-bottom and centers h3s in this div */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sets display options and size of icons*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Styling footer's div (display options, font and centering texts) */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Specify font-size for h2 in footer */
+.footer h2 {
+    font-size: 20px;
+}
